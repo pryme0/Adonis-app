@@ -1,0 +1,65 @@
+.job-container {
+  grid-template-columns: auto;
+  padding: 1.7em;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  font-size: 0.7em;
+  margin-left: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 1.5em);
+  display: block;
+  padding: 0.5em;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+}
+/* Change the white to any color ;) */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+button {
+  padding: 0.5em;
+  background: lightskyblue;
+  border: 1px solid black;
+  color: white;
+  font-size: 0.9em;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1.5px solid #fff;
+  border-radius: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+button:hover {
+  background: skyblue;
+  color: black;
+}
+
+span {
+  display: block;
+  background: yellow;
+  padding: 0.3em;
+  margin-bottom: 20px;
+}
